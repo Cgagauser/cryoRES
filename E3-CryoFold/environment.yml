@@ -1,0 +1,29 @@
+name: cryofold
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - pytorch=2.0.1
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.7
+  - scikit-learn
+  - pip
+  - pip:
+    - transformers==4.24.0
+    - tqdm
+    - jupyterlab
+    - einops
+    - torch_scatter
+    - torch_geometric
+    - torch_cluster
+    - fair-esm
+    - mrcfile
+    - biopython
+prefix: /root/anaconda3/envs/cryofold
